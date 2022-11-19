@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+    <style>
+
+    body{
+        background-image: url(" https://utech.academy/wp-content/uploads/2019/02/frontend-cover.svg ");
+        background-repeat: no-repeat;
+        background-size:41cm 20cm;
+        /* https://utech.academy/wp-content/uploads/2019/02/frontend-cover.svg */
+        height: 3333px;
+        
+
+    }
+    
+    .left{
+        /* border: 2px solid purple; */
+        height: 1.5cm;
+        width: 1cm;
+        float: left;
+        margin-top: 1cm;
+        margin-left: 1cm;
+        display: ;
+        /* background-image: url(https://cdn.vectorstock.com/i/1000x1000/32/78/white-web-design-and-front-end-development-icon-vector-36723278.webp);
+        background-repeat: no-repeat;
+        background-size: 2px; */
+    }
+    .leftimg{
+        height: 2cm;
+
+        width: 2cm;
+    }
+    .mid{
+        /* border: 2px solid orange; */
+        height: 1cm;
+        width: 15cm;
+        float: left;
+        margin-left: 9cm;
+        margin-top: 1cm;
+    }
+    .right{
+        /* border: 2px black solid; */
+        height: 2cm;
+        width: 5.7cm;
+        float: right;
+        margin-right: 1cm;
+        margin-top: 1cm;
+
+
+    }
+    /* .right input image{
+        float: right;
+        width: 1cm; */
+    
+    .rightsearch {
+        width: 4.5cm;
+        height: 1cm;
+        margin-right: 0.4cm;
+        /* position:static; */
+        border-radius: 5px;
+        text-align: center;
+        font-family: fantasy;
+    }
+    header{
+        height: 2cm;
+        /* background-color: yellow; */
+        position: sticky;
+        top: 0px;
+
+    }
+    .navbar{
+        width: 11cm;
+        display: inline;
+    }
+    .navbarli {
+        display: inline-block;
+        padding-left: 1cm;
+        text-decoration: none;
+
+
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: black;
+        font-size: 0.5cm;
+    }
+    .navbar li a:hover{
+        color: grey;
+        cursor: pointer;
+
+    }
+    .imgright{
+        float: right;
+        width: 1cm;
+        height: 0.5cm;
+    }
+    .form{
+        border: 7px solid rgb(11, 12, 12);
+        height: 10.1cm;
+        width: 10.2cm;
+        margin-top: 2cm;
+        margin-left: 23cm;
+        text-align: center;
+        border-radius: 3px;
+        background-color: rgb(142, 180, 167);
+
+    }
+    .formin{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .subbtn{
+        width: 5cm;
+        height: 1cm;
+        font-size: 0.5cm;
+        background-color:black;
+        color: white;
+        cursor: pointer;
+    }
+    .subbtn:hover{
+        animation: animation 8s linear infinite0;
+
+    }
+    .inlen{
+        width: 9cm;
+        height: 1cm;
+        text-align: center;
+        font-family: Abril fatface;
+        border-radius: 28px;
+    }
+    #enroll{
+        border: 8px red solid;
+        height: 0.7cm;
+        width: 3cm;
+        background-color: orange;
+        border-radius: 2px;
+        padding-left: 1cm;
+        padding-right: 1cm;
+        text-align: center;
+        margin-left: 2cm;
+        margin-right: 3cm;
+        padding-top: 3px;
+        font-size: 0.5cm;
+    }
+    .bg{
+        background-color: aquamarine;
+    }
+    .jo{
+        display: inline-block;
+        margin-bottom: 3cm;
+        margin-left: 2cm;
+        width: 5cm;
+        height: 3cm;
+        float: left;
+        position: relative;
+
+    }
+</style>
+
+</head>
+<body >
+    <header>
+         <!--left for logo -->
+    <div class="left">
+        <img src="https://cdn.vectorstock.com/i/1000x1000/32/78/white-web-design-and-front-end-development-icon-vector-36723278.webp" class="leftimg" alt="">
+       
+       
+    </div>
+    <!--mid for navbar -->
+    <div class="mid">
+        <ul class="navbar">
+            <li class="navbarli"><a href="">HOME</a></li>
+            <li class="navbarli"><a href="">HELP</a></li>
+            <li class="navbarli"><a href="">ABOUT</a></li>
+            <li class="navbarli"><a href="">COURSES</a></li>
+        </ul>
+
+    </div>
+    <!--right for search -->
+    <div class="right ">
+        <form action="backend.cpp">
+        <input type="search"  class="rightsearch" placeholder="Search" width="4cm" height="1cm" ></form>
+
+    </div>
+
+    </header>
+    <br>
+    <div>
+        <form action="https://formsubmit.co/shinderajvardhan2051@gmail.com" method="post" class="form">
+            <h4 id="enroll">Enroll Now</h4>
+
+            <input type="text" name="user name" placeholder="Enter Your Name" class="inlen" required >
+            <br>
+            <br>
+            <input type="Email" name="user Email" placeholder="Email" class="inlen" required>
+            <br>
+            <br>
+            <input type="number"  name="Number" placeholder="Contact Number" class="inlen" required minlength="10" maxlength="10" >
+            <br>
+            <br>
+            <select name="courses" class="inlen bg" >
+                <option value="COURSES" class="formin " >COURSES</option>
+                <option value="HTML" class="formin ">html</option>
+
+                <option value="CSS" class="formin ">CSS</option>
+                <option value="JAVA SCRIPT" class="formin">java script</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="submit" placeholder="SUBMIT" class="formin subbtn inlen">
+        </form>
+    </div>
+    <!-- <div>
+        <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201111215809/How-to-Become-a-Front-End-Developer-in-2020.png" class="jo" alt="">
+    </div>
+    -->
+</body>
+</html>
